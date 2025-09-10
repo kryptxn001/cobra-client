@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "me.kryptxn.cobraclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "KeyboardMixin"
+  ]
+}
